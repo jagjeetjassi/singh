@@ -39,6 +39,8 @@ public class SignIn extends Application{
         driver.findElement(By.xpath("//input[@id='sulast']")).clear();
         driver.findElement(By.xpath("//input[@id='sulast']")).sendKeys(lastname);
         
+        //jagjeet git concepts
+        
         org.openqa.selenium.support.ui.Select select1 = new org.openqa.selenium.support.ui.Select(driver.findElement(By.xpath("//select[@id='subirthday']")));
         select1.selectByValue("8");
         org.openqa.selenium.support.ui.Select select2 = new org.openqa.selenium.support.ui.Select(driver.findElement(By.xpath("//select[@id='subirthmonth']")));
