@@ -18,7 +18,9 @@ public class SignIn extends Application{
 	Xls_Reader reader;
 	
 	public SignIn() throws IOException {
-		super();
+	
+		
+		
 				
 	}
 
