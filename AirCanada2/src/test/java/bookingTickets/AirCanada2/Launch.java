@@ -21,6 +21,8 @@ public class Launch {
 		 prop = new Properties();
 		file = new FileInputStream("C:\\Users\\Administrator\\eclipse-workspace\\AirCanada2\\data.properties");
 		prop.load(file);
+		
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	
 		String Browser = prop.getProperty("browser");
 		if (Browser.equalsIgnoreCase("chrome")) {
